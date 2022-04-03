@@ -202,6 +202,10 @@
     .hero__description {
         font-size: 25px;
     }
+
+    .hero {
+        padding: 70px 0;
+    }
 }
 
 .main{
