@@ -43,8 +43,8 @@ html {
 }
 
 .navbar__logo{
-    max-height: 65px;
-    max-width: 65px;
+    max-height: 50px;
+    max-width: 50px;
     align-self: center;
     margin: 0 auto;
 }
