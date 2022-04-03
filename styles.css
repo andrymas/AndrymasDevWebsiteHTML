@@ -42,20 +42,13 @@ html {
     padding: 0 50px;
 }
 
-#navbar__logo{
-    background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+.navbar__logo{
     display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
+    max-height: 65px;
+    max-width: 65px;
+    align-self: center;
+    margin: 0 auto;
+    list-style: none;
 }
 
 .navbar__menu{
@@ -511,7 +504,7 @@ a.gamesbutton:before {
 }
 
 .stickandplatformlogo {
-    max-width: 711,11px; 
+    max-width: 711.11px; 
     max-height: 400px; 
     width: auto; 
     height: auto;
@@ -523,7 +516,7 @@ a.gamesbutton:before {
     }
 
     .stickandplatformlogo{
-        max-width: 611,11px;
+        max-width: 611.11px;
         max-height: 300px;
     }
 }
@@ -534,7 +527,7 @@ a.gamesbutton:before {
     }
 
     .stickandplatformlogo{
-        max-width: 611,11px;
+        max-width: 611.11px;
         max-height: 300px;
     }
     
@@ -550,7 +543,7 @@ a.gamesbutton:before {
     }
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 1038px) {
     .games-container {
         grid-template-columns: 550px;
     }
@@ -562,7 +555,7 @@ a.gamesbutton:before {
     }
     
     .stickandplatformlogo{
-        max-width: 266,67px;
+        max-width: 266.67px;
         max-height: 150px;
     }
     
@@ -578,7 +571,7 @@ a.gamesbutton:before {
     }
     
     .stickandplatformlogo{
-        max-width: 177,78px;
+        max-width: 177.78px;
         max-height: 100px;
     }
     
