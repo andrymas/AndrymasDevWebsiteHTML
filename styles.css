@@ -6,6 +6,19 @@
     scroll-behavior: smooth;
 }
 
+html {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1B262C, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1B262C, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+}
+
 .navbar{
     background: #1C1C1C;
     height: 80px;
@@ -155,9 +168,13 @@
 }
 
 .hero {
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
     background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1B262C, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1B262C, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #1B262C, #000000);
+    background: linear-gradient(to right, #1B262C, #000000);
     padding: 110px 0;
     text-decoration: none;
 }
@@ -430,10 +447,11 @@ hr.about{
 /* games tab */
 
 .games-container {
-    margin: 70px 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .game-item h2 {
@@ -461,7 +479,7 @@ a.gamesbutton {
     z-index: 10;
 }
 a.gamesbutton:hover {
-	color: #000 !important;
+	color: #000;
 	background-color: transparent;
 	text-shadow: ntwo;
 }
@@ -480,7 +498,92 @@ a.gamesbutton:before {
 	z-index: -1;
 	content: '';
     border-radius: 15px; 
-	color: #000 !important;
+	color: #000;
 	background: #0F4C75;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.gamelogo {
+    max-height: 400px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+}
+
+.stickandplatformlogo {
+    max-width: 711,11px; 
+    max-height: 400px; 
+    width: auto; 
+    height: auto;
+}
+
+@media screen and (max-width: 1700px) {
+    .games-container {
+        grid-template-columns: 600px 500px 500px;
+    }
+
+    .stickandplatformlogo{
+        max-width: 611,11px;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 1633px) {
+    .games-container {
+        grid-template-columns: 550px 450px 450px;
+    }
+
+    .stickandplatformlogo{
+        max-width: 611,11px;
+        max-height: 300px;
+    }
+    
+    .gamelogo{
+        max-height: 350px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 1455px) {
+    .games-container {
+        grid-template-columns: 550px 450px;
+    }
+}
+
+@media screen and (max-width: 1007px) {
+    .games-container {
+        grid-template-columns: 550px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .games-container {
+        grid-template-columns: 400px;
+    }
+    
+    .stickandplatformlogo{
+        max-width: 266,67px;
+        max-height: 150px;
+    }
+    
+    .gamelogo{
+        max-height: 200px;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .games-container {
+        grid-template-columns: 350px;
+    }
+    
+    .stickandplatformlogo{
+        max-width: 177,78px;
+        max-height: 100px;
+    }
+    
+    .gamelogo{
+        max-height: 150px;
+        max-width: 150px;
+    }
 }
