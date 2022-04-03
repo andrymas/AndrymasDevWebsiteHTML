@@ -319,6 +319,9 @@
     font-weight: 400;
 }
 
+.main__content dd {
+    margin-left: 15px;
+}
 
 
 hr.about{
@@ -358,11 +361,6 @@ hr.about{
         height: 90%;
     }
 
-    .main__content dl {
-        align-items: left;
-        align-content: left;
-        align-self: left;
-    }
 
     .main__img--container{
         display: flex;
@@ -379,15 +377,18 @@ hr.about{
     }
 
     .main__content h1 {
-        font-size: 2.5rem;
+        text-align: center;
+        font-size: 4rem;
         margin-top: 2rem;
     }
 
     .main__content h2 {
+        text-align: center;
         font-size: 3rem;
     }
 
     .main__content p {
+        text-align: center;
         margin-top: 1rem;
         font-size: 1.5rem;
     }
@@ -404,15 +405,18 @@ hr.about{
     }
 
     .main__content h1 {
-        font-size: 2rem;
+        text-align: center;
+        font-size: 3rem;
         margin-top: 3rem;
     }
 
     .main__content h2 {
+        text-align: center;
         font-size: 2rem;
     }
 
     .main__content p {
+        text-align: center;
         margin-top: 2rem;
     }
 
