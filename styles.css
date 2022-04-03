@@ -30,9 +30,9 @@
 }
 
 #navbar__logo{
-    background: #FF4E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -68,7 +68,7 @@
 }
 
 .navbar__links:hover{
-    color: #fe8c00;
+    color: #2193b0;
     transition: all 0.3s ease;
 }
 
@@ -156,9 +156,10 @@
 
 .hero {
     background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #1B262C, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1B262C, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 110px 0;
+    text-decoration: none;
 }
 
 .hero__container{
@@ -180,9 +181,9 @@
 }
 
 .hero__heading span {
-    background: #FF4E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F9D423, #ff4e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -210,15 +211,15 @@
 
 .main{
     background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #1B262C, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1B262C, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10rem 0;
 }
 
 .main__btn {
-    background: #fe8c00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     transition: all 0.35s;
     font-size: 1.8rem;
     padding: 20px 60px;
@@ -245,7 +246,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #fe8c00;
+    background: #3282B8;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -284,9 +285,9 @@
 
 .main__content h1 {
     font-size: 3rem;
-    background: #fc4a1a;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -314,7 +315,6 @@
 }
 
 .main__content p {
-    margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -343,7 +343,6 @@ hr.about{
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #c21500, #ffc500);
 }
 
 .fa-computer {
@@ -425,4 +424,63 @@ hr.about{
         margin: 2.5rem 0;
     }
 
+}
+
+
+/* games tab */
+
+.games-container {
+    margin: 70px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.game-item h2 {
+    color: #fff;
+}
+
+a.gamesbutton {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    text-decoration: none;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 7px 5px rgba(38,38,38,0.48); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 7px 5px rgba(38,38,38,0.48); 
+    position: relative;
+    z-index: 10;
+}
+a.gamesbutton:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: ntwo;
+}
+a.gamesbutton:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+a.gamesbutton:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+    border-radius: 15px; 
+	color: #000 !important;
+	background: #0F4C75;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
