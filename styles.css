@@ -319,10 +319,7 @@
     font-weight: 400;
 }
 
-dd {
-    margin-left: 20px;
-    align-content: left;
-}
+
 
 hr.about{
     border: 1px solid gray;
@@ -361,6 +358,12 @@ hr.about{
         height: 90%;
     }
 
+    .main__content dl {
+        align-items: left;
+        align-content: left;
+        align-self: left;
+    }
+
     .main__img--container{
         display: flex;
         justify-content: center;
@@ -372,7 +375,6 @@ hr.about{
     }
 
     .main__content{
-        text-align: center;
         margin-bottom: 4rem;
     }
 
@@ -418,4 +420,5 @@ hr.about{
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+
 }
