@@ -1,7 +1,5 @@
 RewriteEngine on
-
-RewriteCond %{SCRIPT_FILENAME} !-d
-
-RewriteRule ^([^.]+)$ $1.html [NC,L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule (.*)/?$ /$1.html [L]
 
 ErrorDocument 404 /404.html
