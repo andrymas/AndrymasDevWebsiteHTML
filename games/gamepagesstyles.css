@@ -158,7 +158,8 @@ html {
     }
 }
 
-.stickandplatformlogo {
+.logo {
+    border-radius: 16px;
     max-width: 711.11px; 
     max-height: 400px; 
     width: auto; 
@@ -170,9 +171,6 @@ html {
     right:0px;
     bottom:0px;
     left:0px;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1B262C, #000000);
-    background: linear-gradient(to right, #1B262C, #000000);
     padding: 110px 0;
     text-decoration: none;
 }
@@ -183,16 +181,9 @@ html {
 }
 
 .gametitle {
-    background: #00d2ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    color: #fff;
     display: table;
     margin: 0 auto;
-    color: #fff;
     font-size: 7rem;
     font-weight: 800;
     text-align: center;
@@ -201,7 +192,7 @@ html {
 .gamedesc {
     display: table;
     margin: 0 auto;
-    color: #868686;
+    color: #ffffffce;
     font-size: 3rem;
     font-weight: 400;
     text-align: center;
@@ -215,6 +206,7 @@ html {
 }
 
 .screenshot {
+    border-radius: 15px;
     max-width: 444.44px;
     max-height: 250px;
 }
@@ -239,8 +231,38 @@ html {
     width: 100%;
     height: 100%;
     font-size: 3rem;
+    position: relative;
+    outline: none;
 }
 
+.downloadbutton a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.downloadbutton:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    transition: all 0.35s;
+    border-radius: 14px;
+}
+
+.downloadbutton:hover{
+    color: #fff;
+}
+
+.downloadbutton:hover:after {
+    width: 100%;
+}
 
 @media screen and (max-width: 1602px) {
     .screenshot {
@@ -287,7 +309,7 @@ html {
 
 
 @media screen and (max-width: 738px) {
-    .stickandplatformlogo {
+    .logo {
         max-width: 533.33px; 
         max-height: 300px; 
         width: auto; 
@@ -296,7 +318,7 @@ html {
 }
 
 @media screen and (max-width: 552px){
-    .stickandplatformlogo {
+    .logo {
         max-width: 444.44px; 
         max-height: 250px; 
         width: auto; 
@@ -310,7 +332,7 @@ html {
         max-height: 200px;
     }
 
-    .stickandplatformlogo {
+    .logo {
         max-width: 355,56px; 
         max-height: 200px; 
         width: auto; 

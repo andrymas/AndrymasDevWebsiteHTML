@@ -497,6 +497,8 @@ a.gamesbutton:before {
 }
 
 .gamelogo {
+    display: table;
+    margin: 0 auto;
     max-height: 400px;
     max-width: 400px;
     width: auto;
@@ -504,6 +506,8 @@ a.gamesbutton:before {
 }
 
 .stickandplatformlogo {
+    display: table;
+    margin: 0 auto;
     max-width: 711.11px; 
     max-height: 400px; 
     width: auto; 
