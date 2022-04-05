@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,9 +7,12 @@
 }
 
 html {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1B262C, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1B262C, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1B262C, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1B262C, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     height: 100%;
 }
@@ -19,7 +22,7 @@ html {
     margin: 0 auto;
 }
 
-.navbar{
+.navbar {
     background: #1C1C1C;
     height: 80px;
     display: flex;
@@ -31,7 +34,7 @@ html {
     z-index: 999;
 }
 
-.navbar__container{
+.navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -42,7 +45,7 @@ html {
     padding: 0 50px;
 }
 
-.navbar__logo{
+.navbar__logo {
     display: flex;
     max-height: 50px;
     max-width: 50px;
@@ -51,18 +54,18 @@ html {
     list-style: none;
 }
 
-.navbar__menu{
+.navbar__menu {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.navbar__item{
+.navbar__item {
     height: 80px;
     transition: all 0.5s ease;
 }
 
-.navbar__links{
+.navbar__links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -73,13 +76,13 @@ html {
     transition: all 0.3s ease;
 }
 
-.navbar__links:hover{
+.navbar__links:hover {
     color: #2193b0;
     transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 760px) {
-    .navbar__container{
+    .navbar__container {
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -89,7 +92,7 @@ html {
         padding: 0;
     }
 
-    .navbar__menu{
+    .navbar__menu {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -102,7 +105,7 @@ html {
         background: #1C1C1C;
     }
 
-    .navbar__menu.active{
+    .navbar__menu.active {
         background: #1C1C1C;
         top: 100%;
         opacity: 1;
@@ -112,11 +115,11 @@ html {
         font-size: 1.6rem;
     }
 
-    #navbar__logo{
+    #navbar__logo {
         padding-left: 25px;
     }
 
-    .navbar__toggle .bar{
+    .navbar__toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -124,18 +127,18 @@ html {
         background: #fff;
     }
 
-    .navbar__item{
+    .navbar__item {
         width: 100%;
     }
 
-    .navbar__links{
+    .navbar__links {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
     }
 
-    #mobile-menu{
+    #mobile-menu {
         position: absolute;
         top: 20%;
         right: 5%;
@@ -147,32 +150,33 @@ html {
         cursor: pointer;
     }
 
-    #mobile-menu.is-active .bar:nth-child(2){
+    #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    #mobile-menu.is-active .bar:nth-child(1){
+    #mobile-menu.is-active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    #mobile-menu.is-active .bar:nth-child(3){
+    #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
 
 .hero {
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
-    background: #000000;  /* fallback for old browsers */
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #000000;
+    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1B262C, #000000);
     background: linear-gradient(to right, #1B262C, #000000);
     padding: 110px 0;
     text-decoration: none;
 }
 
-.hero__container{
+.hero__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,16 +188,19 @@ html {
     padding: 100px;
 }
 
-.hero__heading{
+.hero__heading {
     font-size: 100px;
     margin-bottom: 24px;
     color: #fff;
 }
 
 .hero__heading span {
-    background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -201,12 +208,12 @@ html {
     -moz-text-fill-color: transparent;
 }
 
-.highlight{
+.highlight {
     border-bottom: 4px solid rgb(255, 78, 80);
 }
 
 @media screen and (max-width: 668px) {
-    .hero__heading{
+    .hero__heading {
         font-size: 70px;
     }
 
@@ -219,17 +226,23 @@ html {
     }
 }
 
-.main{
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1B262C, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1B262C, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.main {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1B262C, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1B262C, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10rem 0;
 }
 
 .main__btn {
-    background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transition: all 0.35s;
     font-size: 1.8rem;
     padding: 20px 60px;
@@ -261,7 +274,7 @@ html {
     border-radius: 4px;
 }
 
-.main__btn:hover{
+.main__btn:hover {
     color: #fff;
 }
 
@@ -282,7 +295,7 @@ html {
     padding: 0 50px;
 }
 
-.main__content{
+.main__content {
     background: #D3CCE3;
     background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
     background: linear-gradient(to right, #E9E4F0, #D3CCE3);
@@ -295,9 +308,12 @@ html {
 
 .main__content h1 {
     font-size: 3rem;
-    background: #2193b0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -334,17 +350,17 @@ html {
 }
 
 
-hr.about{
+hr.about {
     border: 1px solid gray;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-.main__img--container{
+.main__img--container {
     text-align: center;
 }
 
-.main__img--card{
+.main__img--card {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -360,7 +376,7 @@ hr.about{
 }
 
 @media screen and (max-width: 1100px) {
-    .main__container{
+    .main__container {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -371,17 +387,17 @@ hr.about{
     }
 
 
-    .main__img--container{
+    .main__img--container {
         display: flex;
         justify-content: center;
     }
 
-    .main__img--card{
+    .main__img--card {
         height: 425px;
         width: 425px;
     }
 
-    .main__content{
+    .main__content {
         margin-bottom: 4rem;
     }
 
@@ -404,12 +420,12 @@ hr.about{
 }
 
 @media screen and (max-width: 480px) {
-    .main__img--card{
+    .main__img--card {
         width: 250px;
         height: 250px;
     }
-    
-    .fa-computer{
+
+    .fa-computer {
         font-size: 9rem;
     }
 
@@ -429,7 +445,7 @@ hr.about{
         margin-top: 2rem;
     }
 
-    .main__btn{
+    .main__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
@@ -452,48 +468,54 @@ hr.about{
 }
 
 a.gamesbutton {
-	color: #fff;
-	cursor: pointer;
-	display: block;
-	position: relative;
-	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
     text-decoration: none;
-    background: #00d2ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
-    border-radius: 15px; 
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 15px;
     padding: 20px;
     margin: 20px;
     font-size: 30px;
     text-align: center;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 7px 5px rgba(38,38,38,0.48); 
-    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 7px 5px rgba(38,38,38,0.48); 
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 7px 5px rgba(38, 38, 38, 0.48);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 7px 5px rgba(38, 38, 38, 0.48);
     position: relative;
     z-index: 10;
 }
+
 a.gamesbutton:hover {
-	color: #000;
-	background-color: transparent;
-	text-shadow: ntwo;
+    color: #000;
+    background-color: transparent;
+    text-shadow: ntwo;
 }
+
 a.gamesbutton:hover:before {
-	top: 0%;
-	bottom: auto;
-	height: 100%;
+    top: 0%;
+    bottom: auto;
+    height: 100%;
 }
+
 a.gamesbutton:before {
-	display: block;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	height: 0px;
-	width: 100%;
-	z-index: -1;
-	content: '';
-    border-radius: 15px; 
-	color: #000;
-	background: #0F4C75;
-	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 0px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    border-radius: 15px;
+    color: #000;
+    background: #0F4C75;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
 .gamelogo {
@@ -508,9 +530,9 @@ a.gamesbutton:before {
 .stickandplatformlogo {
     display: table;
     margin: 0 auto;
-    max-width: 711.11px; 
-    max-height: 400px; 
-    width: auto; 
+    max-width: 711.11px;
+    max-height: 400px;
+    width: auto;
     height: auto;
 }
 
@@ -519,7 +541,7 @@ a.gamesbutton:before {
         grid-template-columns: 600px 500px 500px;
     }
 
-    .stickandplatformlogo{
+    .stickandplatformlogo {
         max-width: 611.11px;
         max-height: 300px;
     }
@@ -530,12 +552,12 @@ a.gamesbutton:before {
         grid-template-columns: 550px 450px 450px;
     }
 
-    .stickandplatformlogo{
+    .stickandplatformlogo {
         max-width: 611.11px;
         max-height: 300px;
     }
-    
-    .gamelogo{
+
+    .gamelogo {
         max-height: 350px;
         max-width: 350px;
     }
@@ -557,13 +579,13 @@ a.gamesbutton:before {
     .games-container {
         grid-template-columns: 400px;
     }
-    
-    .stickandplatformlogo{
+
+    .stickandplatformlogo {
         max-width: 266.67px;
         max-height: 150px;
     }
-    
-    .gamelogo{
+
+    .gamelogo {
         max-height: 200px;
         max-width: 200px;
     }
@@ -573,13 +595,13 @@ a.gamesbutton:before {
     .games-container {
         grid-template-columns: 350px;
     }
-    
-    .stickandplatformlogo{
+
+    .stickandplatformlogo {
         max-width: 266.67px;
         max-height: 150px;
     }
-    
-    .gamelogo{
+
+    .gamelogo {
         max-height: 150px;
         max-width: 150px;
     }

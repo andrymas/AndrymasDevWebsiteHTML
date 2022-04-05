@@ -1,7 +1,5 @@
 {
-  "Version": [
-    {
-      "stickandplatforms": "1.0"
-    }
-  ]
+  "Version": [{
+    "stickandplatforms": "0.1"
+  }]
 }
