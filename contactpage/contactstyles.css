@@ -172,7 +172,6 @@ html {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1B262C, #000000);
     background: linear-gradient(to right, #1B262C, #000000);
-    padding: 110px 0;
     text-decoration: none;
 }
 
@@ -221,9 +220,6 @@ html {
         font-size: 25px;
     }
 
-    .hero {
-        padding: 70px 0;
-    }
 }
 
 .main {
