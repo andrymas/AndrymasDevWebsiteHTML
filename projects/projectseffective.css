@@ -6,15 +6,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1B262C, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1B262C, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 html {
     background: #000000;
     /* fallback for old browsers */
@@ -170,6 +161,14 @@ html {
     }
 }
 
+.logo {
+    border-radius: 16px;
+    max-width: 711.11px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
 .hero {
     top: 0px;
     right: 0px;
@@ -184,7 +183,169 @@ html {
     margin: 0 auto;
 }
 
-.nothingtext {
-    color: white;
+.gametitle {
+    color: #fff;
+    display: table;
+    margin: 0 auto;
+    font-size: 7rem;
+    font-weight: 800;
     text-align: center;
+}
+
+.gamedesc {
+    display: table;
+    margin: 0 auto;
+    color: #ffffffce;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.screenshotcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.screenshot {
+    border-radius: 15px;
+    max-width: 444.44px;
+    max-height: 250px;
+}
+
+.onlyfortext {
+    color: #fff;
+    font-size: 2rem;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.downloadbutton {
+    cursor: pointer;
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 14px;
+    text-decoration: none;
+    padding: 15px 32px;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    position: relative;
+    outline: none;
+}
+
+.downloadbutton a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.downloadbutton:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.35s;
+    border-radius: 14px;
+}
+
+.downloadbutton:hover {
+    color: #fff;
+}
+
+.downloadbutton:hover:after {
+    width: 100%;
+}
+
+@media screen and (max-width: 1602px) {
+    .screenshot {
+        max-width: 355.56px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 1293px) {
+    .screenshot {
+        max-width: 302.22px;
+        max-height: 170px;
+    }
+
+    .gamedesc {
+        font-size: 2.5rem;
+    }
+
+    .gametitle {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 952px) {
+
+    .gametitle {
+        font-size: 3.8rem;
+    }
+
+    .screenshotcontainer {
+        grid-template-columns: auto;
+    }
+
+    .screenshot {
+        max-width: 444.44px;
+        max-height: 250px;
+    }
+
+    .gamedesc {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 738px) {
+    .logo {
+        max-width: 533.33px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .logo {
+        max-width: 444.44px;
+        max-height: 250px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .screenshot {
+        max-width: 355.56px;
+        max-height: 200px;
+    }
+
+    .logo {
+        max-width: 355, 56px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+    }
 }
