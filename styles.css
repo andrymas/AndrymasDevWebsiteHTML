@@ -475,17 +475,19 @@ hr.about {
     padding: 10px;
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-content: center;
 }
 
 .game-item h2 {
     color: #fff;
 }
 
+
 a.gamesbutton {
     color: #fff;
     cursor: pointer;
     display: block;
-    position: relative;
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
     text-decoration: none;
     background: #00d2ff;
@@ -494,7 +496,7 @@ a.gamesbutton {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3a7bd5, #00d2ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px;
     font-size: 30px;
@@ -539,6 +541,7 @@ a.gamesbutton:before {
     max-width: 400px;
     width: auto;
     height: auto;
+    border-radius: 10px;
 }
 
 .stickandplatformlogo {
@@ -619,4 +622,14 @@ a.gamesbutton:before {
         max-height: 150px;
         max-width: 150px;
     }
+}
+
+hr {
+    width: 200%;
+    margin-left: -50%;
+}
+  
+.menoimportante​ {
+    color: lightgray;
+    font-size: larger;
 }

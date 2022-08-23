@@ -349,3 +349,10 @@ html {
         height: auto;
     }
 }
+
+
+.warningbanner {
+    background-color: red;
+    text-align: center;
+    flex: auto;
+}
