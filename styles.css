@@ -633,11 +633,3 @@ hr {
     color: lightgray;
     font-size: larger;
 }
-
-a:link, a:visited {
-    color: white;
-}
-  
-a:hover, a:active {
-    background-color: red;
-}
