@@ -349,3 +349,11 @@ html {
         height: auto;
     }
 }
+
+.gamedesc a:link,.gamedesc a:visited {
+    color: rgb(0, 202, 202);
+}
+  
+.gamedesc a:hover,.gamedesc a:active {
+    background-color: #1B262C;
+}
