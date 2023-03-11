@@ -185,7 +185,7 @@ html {
     margin: 0 auto;
     height: 90%;
     text-align: center;
-    padding: 100px;
+    padding: 00px;
 }
 
 .hero__heading {
@@ -233,7 +233,7 @@ html {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1B262C, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 10rem 0;
+    padding: 0rem 0;
 }
 
 .main__btn {
@@ -632,4 +632,83 @@ hr {
 .menoimportante​ {
     color: lightgray;
     font-size: larger;
+}
+
+body {
+    margin: 0;
+    
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .container {
+    width: 500px;
+    height: 100vw;
+    transform: rotate(-90deg) translateY(-500px);
+    transform-origin: top right;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .container div {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    transform: rotate(90deg);
+    margin: 10px 0;
+  }
+  .container div:first-child {
+    margin: 0;
+  }
+  .cardbutton a{
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    border-radius: 4px;
+  }
+
+  .cardbutton a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #3282B8;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.cardbutton a:hover {
+    color: #fff;
+}
+
+.cardbutton a:hover:after {
+    width: 100%;
+}
+
+.cardbutton spacer {
+    margin: auto;
 }

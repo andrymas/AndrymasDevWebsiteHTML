@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AndrymasDev</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <link rel="stylesheet" href="/404page.css">
-    <script src="https://kit.fontawesome.com/72f87ba6bd.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
     <nav class="navbar">
         <div class="navbar__container">
             <img src="..\logo\logo_small_icon_only_512x512.png" alt="Logo" class="navbar__logo">
@@ -39,23 +25,3 @@
             </ul>
         </div>
     </nav>
-    <div class="hero" id="home">
-        <div class="center">
-            <div class="warningsign">
-                <i class="fa-solid fa-4"></i>
-                <div style="margin: 10px;"></div>
-                <i class="fa-solid fa-circle-exclamation"></i>
-                <div style="margin: 10px;"></div>
-                <i class="fa-solid fa-4"></i>
-            </div>
-        </div>
-        <div style="margin: 20px;"></div>
-        <div class="center">
-            <h1 class="warningmessage">You have found a page that doesn't exist</h1>
-            <h1 class="warningmessage2">Please come back into the real world</h1>
-        </div>
-    </div>
-    <script src="/app.js"></script>
-</body>
-
-</html>
