@@ -641,6 +641,7 @@ body {
   ::-webkit-scrollbar {
     display: none;
   }
+  
   * {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -653,8 +654,8 @@ body {
   }
   .container {
     width: 500px;
-    height: 100vw;
-    transform: rotate(-90deg) translateY(-500px);
+    height: auto;
+    transform: rotate(-90deg) translateY(-1000px);
     transform-origin: top right;
     overflow-x: hidden;
     overflow-y: auto;
@@ -664,7 +665,7 @@ body {
     width: 100%;
     height: 500px;
     transform: rotate(90deg);
-    margin: 10px 0;
+    margin: 20px 0;
   }
   .container div:first-child {
     margin: 0;
@@ -711,4 +712,20 @@ body {
 
 .cardbutton spacer {
     margin: auto;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    padding: 00px;
+}
+
+@media screen and (max-width: 419px) {
+    
 }
