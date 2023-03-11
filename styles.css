@@ -182,10 +182,26 @@ html {
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
     height: 90%;
     text-align: center;
     padding: 00px;
+    margin-top: 20px;
+}
+
+.hero__containerrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px;
+    height: 90%;
+    text-align: center;
+}
+
+.hero__containerrow span {
+    margin: 30px
 }
 
 .hero__heading {
@@ -213,7 +229,7 @@ html {
     border-bottom: 4px solid rgb(255, 78, 80);
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 673px) {
     .hero__heading {
         font-size: 60px;
     }
@@ -224,6 +240,10 @@ html {
 
     .hero {
         padding: 70px 0;
+    }
+
+    .hero__containerrow span {
+        margin: 20px
     }
 }
 
@@ -245,7 +265,7 @@ html {
     background: linear-gradient(to right, #6dd5ed, #2193b0);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transition: all 0.35s;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     padding: 20px 60px;
     border: none;
     border-radius: 5px;
@@ -460,10 +480,7 @@ hr.about {
         margin-top: 2rem;
     }
 
-    .main__btn {
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
+
 
 }
 
@@ -555,9 +572,7 @@ a.gamesbutton:before {
 }
 
 @media screen and (max-width: 1700px) {
-    .games-container {
-        grid-template-columns: 600px 500px 500px;
-    }
+
 
     .stickandplatformlogo {
         max-width: 611.11px;
@@ -566,9 +581,7 @@ a.gamesbutton:before {
 }
 
 @media screen and (max-width: 1633px) {
-    .games-container {
-        grid-template-columns: 550px 450px 450px;
-    }
+
 
     .stickandplatformlogo {
         max-width: 611.11px;
@@ -581,22 +594,14 @@ a.gamesbutton:before {
     }
 }
 
-@media screen and (max-width: 1455px) {
-    .games-container {
-        grid-template-columns: 550px 450px;
-    }
-}
+
 
 @media screen and (max-width: 1038px) {
-    .games-container {
-        grid-template-columns: 550px;
-    }
+
 }
 
 @media screen and (max-width: 600px) {
-    .games-container {
-        grid-template-columns: 400px;
-    }
+
 
     .stickandplatformlogo {
         max-width: 266.67px;
@@ -610,9 +615,7 @@ a.gamesbutton:before {
 }
 
 @media screen and (max-width: 419px) {
-    .games-container {
-        grid-template-columns: 350px;
-    }
+
 
     .stickandplatformlogo {
         max-width: 266.67px;
@@ -748,4 +751,12 @@ body {
         object-fit: cover;
         border-radius: 8px;
       }
+}
+
+
+
+@media screen and (max-width: 562px) {
+    .hero__containerrow {
+        flex-direction: column;
+    }
 }
