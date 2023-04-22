@@ -356,3 +356,34 @@ html {
     text-align: center;
     flex: auto;
 }
+
+.column {
+    align-items: center;
+    text-align: center;
+    flex: auto;
+}
+
+.column h1 {
+    color: #fff;
+}
+
+meter {
+    --background: #dadada;
+    --optimum: forestgreen;
+    --sub-optimum: gold;
+    --sub-sub-optimum: crimson;
+  
+    /* The gray background in Firefox */
+    display: block;
+    width: 100%;
+    height: 25px;
+  }
+
+  .column h2 {
+    color: #bebebe;
+}
+
+.column p {
+    color: #cecece;
+    font-size: 20px;
+}
