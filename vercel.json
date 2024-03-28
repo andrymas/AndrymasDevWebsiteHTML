@@ -5,7 +5,16 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/index.php" },
-      { "src": "/../api/css/style.css", "dest": "/../api/css/style.css" }
+      { "src": "../api/index.php",  "dest": "/api/index.php" },
+      { "src": "../api/css/style.css", "dest": "../api/css/style.css" },
+      { "src": "../api/projects.php", "dest": "../api/css/projects.php" },
+      { "src": "../api/projects/stickandplatforms.php", "dest": "../api/projects/stickandplatforms.php" },
+      { "src": "../api/projects/superbounce.php", "dest": "../api/projects/superbounce.php" },
+      { "src": "../api/projects/trianglefire.php", "dest": "../api/projects/trianglefire.php" },
+      { "src": "../api/elements/dynamic_body.php", "dest": "../api/elements/dynamic_body.php" },
+      { "src": "../api/elements/games_list.php", "dest": "../api/elements/games_list.php" },
+      { "src": "../api/elements/navbar.php", "dest": "../api/elements/navbar.php" },
+      { "src": "../api/elements/proj_list.php", "dest": "../api/elements/proj_list.php" },
+      { "src": "../api/elements/required.php", "dest": "../api/elements/required.php" }
     ]
   }
