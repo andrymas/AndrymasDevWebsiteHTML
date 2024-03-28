@@ -15,22 +15,22 @@
 ?>
 
 <div class="center" style='margin-top: calc(20px + 8vw);'>
-    <img src="../assets/images/logos/stickandplatformslogo.webp" alt="" class="logo">
+    <img src="../api/assets/images/logos/stickandplatformslogo.webp" alt="" class="logo">
     <h1 class='proj' >STICK AND PLATFORMS</h1>
     <h2 class="proj_sub">Cartoony platformer with combat mechanics</h2>
 
     <div class="screenshotcontainer">
 
-        <a href="../assets/images/screenshots/stickandplatformsscreenshot1.webp">
-            <img src="../assets/images/screenshots/stickandplatformsscreenshot1.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/stickandplatformsscreenshot1.webp">
+            <img src="../api/assets/images/screenshots/stickandplatformsscreenshot1.webp" alt="" class="screenshot">
         </a>
 
-        <a href="../assets/images/screenshots/stickandplatformsscreenshot2.webp">
-            <img src="../assets/images/screenshots/stickandplatformsscreenshot2.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/stickandplatformsscreenshot2.webp">
+            <img src="../api/assets/images/screenshots/stickandplatformsscreenshot2.webp" alt="" class="screenshot">
         </a>
 
-        <a href="../assets/images/screenshots/stickandplatformsscreenshot3.webp">
-            <img src="../assets/images/screenshots/stickandplatformsscreenshot3.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/stickandplatformsscreenshot3.webp">
+            <img src="../api/assets/images/screenshots/stickandplatformsscreenshot3.webp" alt="" class="screenshot">
         </a>
 
     </div>
@@ -39,7 +39,7 @@
         <a href="https://drive.usercontent.google.com/download?id=11m4i9Rhp9Ibbxy3VfRK-7nO_eWiq_dUb&export=download&authuser=0" target="_blank">
             DOWNLOAD
         </a>
-        <img src="../assets/images/logos/windows.webp" alt="" class="proj_platform_dl">
+        <img src="../api/assets/images/logos/windows.webp" alt="" class="proj_platform_dl">
     </button>
     
 </div>

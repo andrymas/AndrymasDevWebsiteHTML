@@ -15,26 +15,26 @@
 ?>
 
 <div class="center" style='margin-top: calc(20px + 8vw);'>
-    <img src="../assets/images/logos/TriangleFireLogo.webp" alt="" class="logo">
+    <img src="../api/assets/images/logos/TriangleFireLogo.webp" alt="" class="logo">
     <h1 class='proj' >TRIANGLE FIRE</h1>
     <h2 class="proj_sub">Top-down shooter with various enemy types and an upgradable character</h2>
 
     <div class="screenshotcontainer">
 
-        <a href="../assets/images/screenshots/trianglefirescreenshot1.webp">
-            <img src="../assets/images/screenshots/trianglefirescreenshot1.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/trianglefirescreenshot1.webp">
+            <img src="../api/assets/images/screenshots/trianglefirescreenshot1.webp" alt="" class="screenshot">
         </a>
 
-        <a href="../assets/images/screenshots/trianglefirescreenshot2.webp">
-            <img src="../assets/images/screenshots/trianglefirescreenshot2.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/trianglefirescreenshot2.webp">
+            <img src="../api/assets/images/screenshots/trianglefirescreenshot2.webp" alt="" class="screenshot">
         </a>
 
-        <a href="../assets/images/screenshots/trianglefirescreenshot3.webp">
-            <img src="../assets/images/screenshots/trianglefirescreenshot3.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/trianglefirescreenshot3.webp">
+            <img src="../api/assets/images/screenshots/trianglefirescreenshot3.webp" alt="" class="screenshot">
         </a>
 
-        <a href="../assets/images/screenshots/trianglefirescreenshot4.webp">
-            <img src="../assets/images/screenshots/trianglefirescreenshot4.webp" alt="" class="screenshot">
+        <a href="../api/assets/images/screenshots/trianglefirescreenshot4.webp">
+            <img src="../api/assets/images/screenshots/trianglefirescreenshot4.webp" alt="" class="screenshot">
         </a>
 
     </div>
@@ -43,7 +43,7 @@
         <a href="https://play.google.com/store/apps/details?id=com.Andrymas.TriangleFire" target="_blank">
             DOWNLOAD
         </a>
-        <img src="../assets/images/logos/android.webp" alt="" class="proj_platform_dl">
+        <img src="../api/assets/images/logos/android.webp" alt="" class="proj_platform_dl">
     </button>
     
 </div>

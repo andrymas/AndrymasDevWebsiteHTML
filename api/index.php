@@ -15,9 +15,9 @@
 
 <div class="hero">
     <div class="blurmask">
-        <img class="blob" src="../assets/svg/blob1.svg" alt="blob" style="scale:60%; left:50%;top:10%">
-        <img class="blob" src="../assets/svg/blob2.svg" alt="blob" style="scale:40%;">
-        <img class="blob" src="../assets/svg/blob3.svg" alt="blob" style="scale:30%; left:-50%; top:10%">
+        <img class="blob" src="../api/assets/svg/blob1.svg" alt="blob" style="scale:60%; left:50%;top:10%">
+        <img class="blob" src="../api/assets/svg/blob2.svg" alt="blob" style="scale:40%;">
+        <img class="blob" src="../api/assets/svg/blob3.svg" alt="blob" style="scale:30%; left:-50%; top:10%">
     </div>
 
 </div>
