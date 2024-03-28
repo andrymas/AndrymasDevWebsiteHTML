@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Stick And Platforms</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <link rel="icon" type="image/x-icon" href="../api/favicon.png">
 </head>
 <body>
 <?php

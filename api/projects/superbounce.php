@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <title>SUPER BOUNCE</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="icon" type="image/x-icon" href="../../favicon.png">
+    <link rel="icon" type="image/x-icon" href="../api/../api/favicon.png">
 </head>
 <body>
 <?php
     require "../elements/required.php";
 ?>
 <?php
-    require "../elements/navbar.php";
+    require "../elements/required.php";
 ?>
 
 <div class="center" style='margin-top: calc(20px + 8vw);'>
