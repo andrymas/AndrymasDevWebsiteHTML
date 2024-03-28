@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT']."/api/assets/scripts/global_variables.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/api/../assets/scripts/global_variables.php"); ?>
 
 <style>
     body{

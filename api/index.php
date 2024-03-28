@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Home</title>
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="../api/css/style.css" />
         <link rel="icon" type="image/x-icon" href="../api/favicon.png">
     </head>
 <body scroll="no" style="overflow: hidden; position:relative; margin:0;">
@@ -15,9 +15,9 @@
 
 <div class="hero">
     <div class="blurmask">
-        <img class="blob" src="assets/svg/blob1.svg" alt="blob" style="scale:60%; left:50%;top:10%">
-        <img class="blob" src="assets/svg/blob2.svg" alt="blob" style="scale:40%;">
-        <img class="blob" src="assets/svg/blob3.svg" alt="blob" style="scale:30%; left:-50%; top:10%">
+        <img class="blob" src="../assets/svg/blob1.svg" alt="blob" style="scale:60%; left:50%;top:10%">
+        <img class="blob" src="../assets/svg/blob2.svg" alt="blob" style="scale:40%;">
+        <img class="blob" src="../assets/svg/blob3.svg" alt="blob" style="scale:30%; left:-50%; top:10%">
     </div>
 
 </div>

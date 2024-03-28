@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Stick And Platforms</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../../api/css/style.css" />
     <link rel="icon" type="image/x-icon" href="../api/favicon.png">
 </head>
 <body>
