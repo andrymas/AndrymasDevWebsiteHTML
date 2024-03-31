@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SUPER BOUNCE</title>
+    <title>Super BounceE</title>
     <link rel="stylesheet" href="../../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../../favicon.png">
 </head>
