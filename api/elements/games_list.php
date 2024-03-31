@@ -10,7 +10,7 @@
         <a class="grid_item" href="projects/stickandplatforms.php">
             <img src="../../assets/images/logos/stickandplatformslogo.webp" alt="" class="proj_logo">
             <p class="proj_title">S&P</p>
-            <img class="proj_platform" src=<?php echo __DIR__."/"."../../assets/images/logos/windows.webp" ?> alt="">
+            <img class="proj_platform" src="../../assets/images/logos/windows2.webp" alt="">
         </a>
     </div>
 </div>

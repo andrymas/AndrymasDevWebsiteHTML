@@ -37,7 +37,7 @@
         <a href="https://drive.usercontent.google.com/download?id=15EQcGEoIJZjWNciEsuhzV4_ubWeG_1zS&export=download&authuser=0" target="_blank">
             DOWNLOAD
         </a>
-        <img src="../../assets/images/logos/windows.webp" alt="" class="proj_platform_dl">
+        <img src="../../assets/images/logos/windows2.webp" alt="" class="proj_platform_dl">
     </button>
     
 </div>
