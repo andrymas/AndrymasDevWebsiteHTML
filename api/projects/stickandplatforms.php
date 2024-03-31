@@ -11,7 +11,7 @@
     require_once __DIR__."/"."../elements/required.php";
 ?>
 <?php
-    require_once "../elements/navbar.php";
+    require_once __DIR__."/"."../elements/navbar.php";
 ?>
 
 <div class="center" style='margin-top: calc(20px + 8vw);'>
