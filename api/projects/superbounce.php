@@ -8,10 +8,10 @@
 </head>
 <body>
 <?php
-    require "../elements/required.php";
+    require_once "../elements/required.php";
 ?>
 <?php
-    require "../elements/required.php";
+    require_once "../elements/required.php";
 ?>
 
 <div class="center" style='margin-top: calc(20px + 8vw);'>
