@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Projects</title>
-    <link rel="stylesheet" href="../api/css/style.css" />
-    <link rel="icon" type="image/x-icon" href="../api/favicon.png">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
     <?php require ('elements/dynamic_body.php') ?>
 </head>
 <body>

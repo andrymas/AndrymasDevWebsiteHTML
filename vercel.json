@@ -5,9 +5,9 @@
       }
     },
     "routes": [
-      { "src": "../api/index.php",  "dest": "/api/index.php" },
+      { "src": "/",  "dest": "/api/index.php" },
       { "src": "../api/css/style.css", "dest": "../api/css/style.css" },
-      { "src": "../api/projects.php", "dest": "../api/css/projects.php" },
+      { "src": "../api/projects.php", "dest": "../api/projects.php" },
       { "src": "../api/projects/stickandplatforms.php", "dest": "../api/projects/stickandplatforms.php" },
       { "src": "../api/projects/superbounce.php", "dest": "../api/projects/superbounce.php" },
       { "src": "../api/projects/trianglefire.php", "dest": "../api/projects/trianglefire.php" },
