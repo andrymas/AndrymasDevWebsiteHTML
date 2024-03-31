@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-    require_once "../elements/required.php";
+    require_once __DIR__."/"."../elements/required.php";
 ?>
 <?php
     require_once "../elements/navbar.php";
