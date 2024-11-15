@@ -2,6 +2,7 @@
     $bg_string = "#131516";
     $home_add = "../../api/index.php";
     $proj_add = "../../api/projects.php";
+    $port_add = "../../api/portfolio.php";
 
     $tf_percentage = 75;
     $tf_last_update = "17 June 2022";

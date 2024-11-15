@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../favicon.png">
     <?php require_once ('elements/dynamic_body.php') ?>
+    <?php
+            require_once "elements/header.php";
+    ?>
 </head>
-<body>
+<body style="overflow-x: hidden;">
+
 <?php
     require_once "elements/required.php";
 ?>
@@ -22,5 +26,6 @@
     require_once "elements/proj_list.php"
 ?>
     
+
 </body>
 </html>
