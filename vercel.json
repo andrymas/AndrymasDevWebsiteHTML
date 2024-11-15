@@ -2,7 +2,12 @@
     "functions": {
       "api/**/*.php": {
         "runtime": "vercel-php@0.7.0"
+      },
+
+      "api/**/*.js": {
+        "includeFiles": "../api/assets/scripts/menu.js"
       }
+
     },
     "routes": [
       { "src": "/",  "dest": "/api/index.php" },
@@ -14,6 +19,7 @@
       { "src": "../api/elements/dynamic_body.php", "dest": "../api/elements/dynamic_body.php" },
       { "src": "../api/elements/games_list.php", "dest": "../api/elements/games_list.php" },
       { "src": "../api/elements/navbar.php", "dest": "../api/elements/navbar.php" },
+      { "src": "../api/elements/header.php", "dest": "../api/elements/header.php" },
       { "src": "../api/elements/proj_list.php", "dest": "../api/elements/proj_list.php" },
       { "src": "../api/elements/required.php", "dest": "../api/elements/required.php" }
     ]
