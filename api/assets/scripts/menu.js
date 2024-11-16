@@ -9,3 +9,5 @@ export function openMenu(){
         x.classList.remove("slide-out-blurred-top");
     }
 }
+
+export default openMenu;
