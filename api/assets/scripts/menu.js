@@ -1,4 +1,4 @@
-function openMenu(){
+export function openMenu(){
     var x = document.getElementById("link_home_mobile_menu");
     x.style.display = "flex";
     if (x.classList.contains("slide-in-blurred-top")) {
