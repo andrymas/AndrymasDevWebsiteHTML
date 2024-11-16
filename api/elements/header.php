@@ -1,5 +1,5 @@
 <?php
-    $BaseDir = $_SERVER['SERVER_NAME'] . '/';
+    $BaseDir = __DIR__ . '/';
 ?>
 
-<script src="<?php echo $BaseDir."../assets/scripts/menu.js" ?>"></script>
+<script src="<?php echo $BaseDir."api/assets/scripts/menu.js" ?>"></script>
