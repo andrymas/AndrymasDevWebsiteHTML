@@ -5,9 +5,7 @@
         <title>Home</title>
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="icon" type="image/x-icon" href="../favicon.png">
-        <?php
-            require_once "elements/header.php";
-        ?>
+        <script src="./assets/scripts/menu.js"></script>
     </head>
 <body scroll="no" style="overflow: hidden; position:relative; margin:0;">
 <div style="position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden;"></div>

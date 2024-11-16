@@ -6,9 +6,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../favicon.png">
     <?php require_once ('elements/dynamic_body.php') ?>
-    <?php
-            require_once "elements/header.php";
-    ?>
+    <script src="./assets/scripts/menu.js"></script>
 </head>
 <body style="overflow-x: hidden;">
 

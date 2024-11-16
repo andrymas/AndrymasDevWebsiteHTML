@@ -5,9 +5,7 @@
     <title>Super BounceE</title>
     <link rel="stylesheet" href="../../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../../favicon.png">
-    <?php
-        require_once __DIR__."/"."../elements/header.php";
-    ?>
+    <script src="../assets/scripts/menu.js"></script>
 </head>
 <body>
 <?php
